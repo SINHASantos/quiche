@@ -1,6 +1,6 @@
 [package]
 name = "h3i"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Lucas Pardue <lucas@lucaspardue.com>", "Evan Rittenhouse <evanrittenhouse@gmail.com>"]
 edition = "2018"
 description = "Low-level HTTP/3 debugging and testing"
@@ -14,7 +14,7 @@ rust-version = "1.67"
 [dependencies]
 clap = "3"
 env_logger = "0.6"
-http = "1.1.0"
+http = "0.2"
 inquire = "0.6.2"
 log = { version = "0.4", features = ["std"] }
 mio = { version = "0.8", features = ["net", "os-poll"] }
